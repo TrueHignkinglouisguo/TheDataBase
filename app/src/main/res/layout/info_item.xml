@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TableRow
+        android:id="@+id/info_rv_tb"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/item_selecter_gray"
+        >
+        <TextView
+            android:id="@+id/info_rv_title"
+            android:layout_width="0dp"
+            android:layout_weight="0.05"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="20dp"
+            android:textColor="@color/blue_deep"
+            />
+        <TextView
+            android:id="@+id/info_rv_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </TableRow>
+</LinearLayout>

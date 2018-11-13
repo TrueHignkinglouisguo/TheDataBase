@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TableRow
+        android:id="@+id/mainactivity_rv_tb"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/item_selecter_gray"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/icon_all_task"
+            />
+        <TextView
+            android:id="@+id/mainactivity_rv_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight= "15dp"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/icon_go_blue"
+            />
+    </TableRow>
+</LinearLayout>
